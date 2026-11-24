@@ -1,0 +1,13 @@
+# Virtual environments
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+
+# Large dataset files (users can download from Kaggle)
+*.csv
+!backend/phishing_data.csv
+
+# OS / Editor files
+.vscode/
+.DS_Store
